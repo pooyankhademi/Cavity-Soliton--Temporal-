@@ -9,7 +9,7 @@ delta3 = 3;
 Y = linspace(0, 6, 1000);
 %
 Xref = Y;
-% Del
+% Delta root
 X1 = Y.^3 - 2*delta1*Y.^2 + (delta1^2 +1)*Y;
 X2 = Y.^3 - 2*delta2*Y.^2 + (delta2^2 +1)*Y;
 X3 = Y.^3 - 2*delta3*Y.^2 + (delta3^2 +1)*Y;
@@ -25,3 +25,4 @@ xlabel('X');
 ylabel('Y');
 title('Stability analysis');
 legend('Reference', '\Delta = 1', '\Delta = 2', '\Delta = 3');
+%% Discer
